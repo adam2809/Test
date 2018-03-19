@@ -8,9 +8,9 @@ public class Fighter {
         this.damagePerAttack = damagePerAttack;
     }
     public boolean isDefeated(){
-        if(health<=0){
-            return true;    
+        if(health>0){
+            return false;    
         }
-        return false;
+        return true;
     }
 }
