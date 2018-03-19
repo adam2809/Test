@@ -6,8 +6,7 @@ import java.util.*;
 public class Codewars {
 
     public static void main(String[] args) throws Exception {
-        int[][] temp=new int[0][0];
-        System.out.println(snail(temp));
+        
     }
 
     public static boolean isValid(char[] walk) {
