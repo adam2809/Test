@@ -677,4 +677,7 @@ public class Codewars {
         }
         return out;
     }
+	private static boolean isGitAwesome(){
+		return true;
+	}	
 }
